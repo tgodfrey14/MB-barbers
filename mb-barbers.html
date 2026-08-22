@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MB Barbers | Barber Shop in Garratt Lane, Wandsworth SW18 | Book a Cut Today</title>
+<meta name="description" content="MB Barbers on Garratt Lane, SW18 — 40+ years' experience, skin fades, beard trims & hot towel shaves. Rated 4.6★ from 60 reviews. Call 07776 474320 or get a free quote.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://www.mbbarbers.co.uk/">
+
+<!-- Open Graph -->
+<meta property="og:type" content="business.business">
+<meta property="og:title" content="MB Barbers — Garratt Lane, Wandsworth SW18">
+<meta property="og:description" content="Skilled barbers, 40+ years' experience, walk-ins welcome. Rated 4.6★ (60 reviews). Call or get a free quote today.">
+<meta property="og:locale" content="en_GB">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700;9..144,900&family=Work+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HairSalon",
+  "name": "MB Barbers",
+  "image": "https://www.mbbarbers.co.uk/og-image.jpg",
+  "@id": "https://www.mbbarbers.co.uk/",
+  "url": "https://www.mbbarbers.co.uk/",
+  "telephone": "+447776474320",
+  "priceRange": "££",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "221 Garratt Lane",
+    "addressLocality": "London",
+    "addressRegion": "London",
+    "postalCode": "SW18 4DT",
+    "addressCountry": "GB"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 51.4478,
+    "longitude": -0.1893
+  },
+  "openingHoursSpecification": [
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"], "opens": "09:00", "closes": "19:00" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": "Sunday", "opens": "10:00", "closes": "17:00" }
+  ],
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.6",
+    "reviewCount": "60"
+  }
+}
+</script>
+
+<style>
+  :root{
+    --ink:#132339;
+    --ink-2:#1c3350;
+    --paper:#f1eee6;
+    --paper-2:#e8e3d6;
+    --brass:#c1963f;
+    --brass-2:#e0b563;
+    --red:#9c2b34;
+    --red-2:#b83b45;
+    --line: rgba(19,35,57,0.14);
+    --ink-soft: rgba(19,35,57,0.68);
+    --radius: 4px;
+    --max: 1120px;
+    --shadow: 0 12px 32px rgba(19,35,57,0.14);
+    font-size: 16px;
+  }
+
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'Work Sans', sans-serif;
+    line-height:1.55;
+    -webkit-font-smoothing:antialiased;
+  }
+  img,svg{max-width:100%;display:block;}
+  a{color:inherit;}
+  h1,h2,h3,h4{
+    font-family:'Fraunces', serif;
+    font-weight:700;
+    letter-spacing:-0.01em;
+    margin:0 0 .5em;
+    color:var(--ink);
+  }
+  p{margin:0 0 1em;}
+  .container{max-width:var(--max); margin:0 auto; padding:0 20px;}
+  .eyebrow{
+    font-family:'Work Sans', sans-serif;
+    text-transform:uppercase;
+    letter-spacing:.14em;
+    font-size:.72rem;
+    font-weight:700;
+    color:var(--red);
+  }
+  section{padding:64px 0;}
+  .btn{
+    display:inline-flex; align-items:center; justify-content:center; gap:8px;
+    padding:15px 26px;
+    border-radius:var(--radius);
+    font-weight:700;
+    text-decoration:none;
+    font-size:1rem;
+    border:2px solid transparent;
+    cursor:pointer;
+    transition:transform .15s ease, box-shadow .15s ease, background .15s ease;
+    line-height:1;
+    font-family:'Work Sans', sans-serif;
+  }
+  .btn:active{transform:scale(.98);}
+  .btn-primary{background:var(--red); color:#fff; box-shadow:0 6px 18px rgba(156,43,52,0.35);}
+  .btn-primary:hover{background:var(--red-2);}
+  .btn-outline{background:transparent; border-color:var(--paper); color:var(--paper);}
+  .btn-outline:hover{background:rgba(255,255,255,0.08);}
+  .btn-ghost{background:transparent; border-color:var(--ink); color:var(--ink);}
+  .btn-ghost:hover{background:rgba(19,35,57,0.06);}
+  .btn-block{width:100%;}
+  .btn svg{width:18px; height:18px; flex-shrink:0;}
+
+  /* ---------- Top utility bar ---------- */
+  .topbar{
+    background:var(--ink);
+    color:var(--paper);
+    font-size:.82rem;
+    padding:7px 0;
+  }
+  .topbar .container{display:flex; justify-content:space-between; align-items:center; gap:12px;}
+  .topbar-item{display:flex; align-items:center; gap:6px; white-space:nowrap;}
+  .topbar-item svg{width:14px; height:14px;}
+  .topbar-status{color:var(--brass-2); font-weight:600;}
+  .topbar .hide-mobile{display:none;}
+
+  /* ---------- Header ---------- */
+  header.site{
+    position:sticky; top:0; z-index:50;
+    background:var(--paper);
+    border-bottom:1px solid var(--line);
+  }
+  .nav{
+    display:flex; align-items:center; justify-content:space-between;
+    padding:12px 0;
+  }
+  .brand{display:flex; align-items:center; gap:10px; text-decoration:none;}
+  .brand-mark{width:40px; height:40px; flex-shrink:0;}
+  .brand-text{font-family:'Fraunces', serif; font-weight:700; font-size:1.2rem; line-height:1;}
+  .brand-text span{display:block; font-family:'Work Sans',sans-serif; font-weight:600; font-size:.62rem; letter-spacing:.12em; text-transform:uppercase; color:var(--ink-soft); margin-top:3px;}
+  .nav-links{display:none;}
+  .nav-cta{display:flex; align-items:center; gap:10px;}
+  .call-chip{
+    display:flex; align-items:center; gap:8px;
+    background:var(--ink); color:var(--paper);
+    padding:10px 16px; border-radius:var(--radius);
+    font-weight:700; text-decoration:none; font-size:.95rem;
+    white-space:nowrap;
+  }
+  .call-chip svg{width:17px; height:17px; color:var(--brass-2); flex-shrink:0;}
+  .call-chip small{display:block; font-weight:500; font-size:.62rem; text-transform:uppercase; letter-spacing:.08em; color:var(--paper-2);}
+
+  /* ---------- Hero ---------- */
+  .hero{
+    background:
+      radial-gradient(1200px 500px at 85% -10%, rgba(193,150,63,0.18), transparent 60%),
+      linear-gradient(180deg, var(--ink), var(--ink-2));
+    color:var(--paper);
+    padding:52px 0 44px;
+    position:relative;
+    overflow:hidden;
+  }
+  .hero::after{
+    content:"";
+    position:absolute; inset:auto -10% -60% -10%;
+    height:260px;
+    background:repeating-linear-gradient(45deg, var(--red) 0 22px, var(--paper) 22px 44px, var(--ink-2) 44px 66px);
+    opacity:.05;
+    transform:rotate(-4deg);
+    pointer-events:none;
+  }
+  .hero-inner{position:relative; z-index:1;}
+  .stars{display:flex; align-items:center; gap:8px; margin-bottom:18px; flex-wrap:wrap;}
+  .stars .icons{display:flex; gap:2px;}
+  .stars svg{width:16px; height:16px; color:var(--brass-2);}
+  .stars-text{font-size:.85rem; color:var(--paper-2); font-weight:600;}
+  .hero h1{
+    color:#fff; font-size:2.1rem; line-height:1.1; max-width:14ch;
+  }
+  .hero-lede{color:var(--paper-2); font-size:1.05rem; max-width:46ch;}
+  .hero-ctas{display:flex; flex-direction:column; gap:12px; margin:26px 0 30px;}
+  .hero-trust{
+    display:grid; grid-template-columns:repeat(2,1fr); gap:14px 18px;
+    border-top:1px solid rgba(241,238,230,0.14);
+    padding-top:22px;
+  }
+  .trust-stat{}
+  .trust-stat .num{font-family:'Fraunces', serif; font-size:1.5rem; font-weight:700; color:var(--brass-2); display:block;}
+  .trust-stat .lbl{font-size:.78rem; color:var(--paper-2); text-transform:uppercase; letter-spacing:.06em;}
+
+  /* ---------- Guard gauge (signature element) ---------- */
+  .gauge-wrap{background:var(--paper-2); border-top:1px solid var(--line); border-bottom:1px solid var(--line); padding:34px 0;}
+  .gauge-head{text-align:center; max-width:52ch; margin:0 auto 26px;}
+  .gauge-head p{color:var(--ink-soft); margin:0;}
+  .gauge{position:relative; padding:0 6px;}
+  .gauge-track{
+    position:relative; height:6px; border-radius:6px;
+    background:linear-gradient(90deg, var(--ink) 0%, var(--brass) 55%, var(--red) 100%);
+  }
+  .gauge-ticks{display:flex; justify-content:space-between; margin-top:10px;}
+  .tick{display:flex; flex-direction:column; align-items:center; gap:6px; flex:1;}
+  .tick .dot{width:10px; height:10px; border-radius:50%; background:var(--ink); border:2px solid var(--paper-2); margin-top:-13px;}
+  .tick .num{font-family:'Fraunces', serif; font-weight:700; font-size:.95rem;}
+  .tick .lbl{font-size:.66rem; text-align:center; color:var(--ink-soft); text-transform:uppercase; letter-spacing:.04em; line-height:1.2; max-width:52px;}
+
+  /* ---------- Section heads ---------- */
+  .section-head{max-width:56ch; margin-bottom:32px;}
+  .section-head h2{font-size:1.7rem;}
+  .section-head p{color:var(--ink-soft);}
+
+  /* ---------- Services / price list ---------- */
+  .board{
+    background:var(--ink); color:var(--paper);
+    border-radius:8px; padding:6px;
+    box-shadow:var(--shadow);
+  }
+  .board-inner{border:1px solid rgba(241,238,230,0.18); border-radius:6px; padding:8px 0;}
+  .price-row{
+    display:flex; justify-content:space-between; align-items:baseline; gap:16px;
+    padding:16px 22px;
+    border-bottom:1px dashed rgba(241,238,230,0.16);
+  }
+  .price-row:last-child{border-bottom:none;}
+  .price-row .name{font-family:'Fraunces', serif; font-weight:600; font-size:1.02rem;}
+  .price-row .desc{display:block; font-family:'Work Sans',sans-serif; font-weight:400; font-size:.82rem; color:var(--paper-2); margin-top:3px;}
+  .price-row .price{font-family:'Fraunces', serif; font-weight:700; color:var(--brass-2); white-space:nowrap; font-size:1.05rem;}
+  .board-foot{padding:16px 22px 4px; font-size:.82rem; color:var(--paper-2);}
+
+  /* ---------- Why us ---------- */
+  .why-grid{display:grid; grid-template-columns:1fr; gap:18px;}
+  .why-card{
+    background:#fff; border:1px solid var(--line); border-radius:8px;
+    padding:22px;
+  }
+  .why-card .ico{width:34px; height:34px; color:var(--red); margin-bottom:12px;}
+  .why-card h3{font-size:1.05rem; margin-bottom:6px;}
+  .why-card p{color:var(--ink-soft); font-size:.92rem; margin:0;}
+
+  /* ---------- Reviews ---------- */
+  .reviews-summary{
+    display:flex; align-items:center; gap:18px; margin-bottom:26px; flex-wrap:wrap;
+  }
+  .rs-score{font-family:'Fraunces', serif; font-size:2.6rem; font-weight:700; line-height:1;}
+  .rs-meta .icons svg{width:16px; height:16px; color:var(--brass);}
+  .rs-meta small{display:block; color:var(--ink-soft); font-size:.82rem; margin-top:2px;}
+  .review-grid{display:grid; grid-template-columns:1fr; gap:16px;}
+  .review-card{
+    background:#fff; border:1px solid var(--line); border-radius:8px; padding:20px;
+  }
+  .review-card .stars-row{display:flex; gap:2px; margin-bottom:10px;}
+  .review-card .stars-row svg{width:14px; height:14px; color:var(--brass);}
+  .review-card p{font-size:.94rem; color:var(--ink); margin-bottom:12px;}
+  .review-card .who{display:flex; align-items:center; gap:10px;}
+  .avatar{
+    width:34px; height:34px; border-radius:50%;
+    background:var(--paper-2); color:var(--ink);
+    display:flex; align-items:center; justify-content:center;
+    font-weight:700; font-family:'Fraunces',serif; font-size:.9rem; flex-shrink:0;
+  }
+  .who-name{font-weight:700; font-size:.86rem;}
+  .who-meta{font-size:.76rem; color:var(--ink-soft);}
+
+  /* ---------- About ---------- */
+  .about{background:var(--ink); color:var(--paper);}
+  .about .eyebrow{color:var(--brass-2);}
+  .about h2{color:#fff;}
+  .about p{color:var(--paper-2);}
+  .about-stats{display:grid; grid-template-columns:repeat(2,1fr); gap:16px; margin-top:26px;}
+  .about-stat{border-left:3px solid var(--brass); padding-left:14px;}
+  .about-stat .num{font-family:'Fraunces',serif; font-size:1.6rem; font-weight:700; color:var(--brass-2); display:block;}
+  .about-stat .lbl{font-size:.78rem; color:var(--paper-2); text-transform:uppercase; letter-spacing:.05em;}
+
+  /* ---------- Location ---------- */
+  .loc-grid{display:grid; grid-template-columns:1fr; gap:20px;}
+  .loc-card{background:#fff; border:1px solid var(--line); border-radius:8px; padding:22px;}
+  .loc-card h3{font-size:1.05rem; display:flex; align-items:center; gap:8px;}
+  .loc-card h3 svg{width:19px; height:19px; color:var(--red); flex-shrink:0;}
+  .hours-row{display:flex; justify-content:space-between; padding:7px 0; border-bottom:1px solid var(--line); font-size:.9rem;}
+  .hours-row:last-child{border-bottom:none;}
+  .hours-row.today{font-weight:700; color:var(--red);}
+  .map-frame{width:100%; height:220px; border:0; border-radius:6px; filter:grayscale(15%);}
+
+  /* ---------- Quote form ---------- */
+  .quote{background:var(--paper-2);}
+  .quote-wrap{
+    background:#fff; border-radius:10px; box-shadow:var(--shadow);
+    padding:26px 20px; border:1px solid var(--line);
+  }
+  .quote-head{text-align:center; margin-bottom:22px;}
+  .form-row{margin-bottom:16px;}
+  .form-row label{display:block; font-size:.82rem; font-weight:700; margin-bottom:6px; letter-spacing:.01em;}
+  .form-row input, .form-row select, .form-row textarea{
+    width:100%; padding:13px 14px; border:1.5px solid var(--line);
+    border-radius:6px; font-size:1rem; font-family:'Work Sans',sans-serif;
+    background:var(--paper); color:var(--ink);
+  }
+  .form-row input:focus, .form-row select:focus, .form-row textarea:focus{
+    outline:2px solid var(--brass); outline-offset:1px; border-color:var(--brass);
+  }
+  .form-grid2{display:grid; grid-template-columns:1fr; gap:0;}
+  .form-note{font-size:.78rem; color:var(--ink-soft); margin-top:10px; text-align:center;}
+  .form-success{
+    display:none; text-align:center; padding:20px 10px;
+  }
+  .form-success.show{display:block;}
+  .form-success svg{width:44px; height:44px; color:#2f7d4f; margin:0 auto 12px;}
+  .divider-or{display:flex; align-items:center; gap:12px; margin:20px 0; color:var(--ink-soft); font-size:.82rem; text-transform:uppercase; letter-spacing:.08em;}
+  .divider-or::before, .divider-or::after{content:""; flex:1; height:1px; background:var(--line);}
+
+  /* ---------- Footer ---------- */
+  footer.site{background:var(--ink); color:var(--paper-2); padding:40px 0 100px;}
+  .foot-grid{display:grid; grid-template-columns:1fr; gap:26px;}
+  .foot-brand{color:#fff; font-family:'Fraunces',serif; font-weight:700; font-size:1.2rem; margin-bottom:8px;}
+  footer.site h4{color:#fff; font-size:.9rem; text-transform:uppercase; letter-spacing:.06em; margin-bottom:12px;}
+  footer.site ul{list-style:none; padding:0; margin:0;}
+  footer.site li{margin-bottom:8px; font-size:.9rem;}
+  footer.site a{text-decoration:none; color:var(--paper-2);}
+  footer.site a:hover{color:var(--brass-2);}
+  .foot-bottom{border-top:1px solid rgba(241,238,230,0.14); margin-top:30px; padding-top:20px; font-size:.78rem; color:rgba(241,238,230,0.5);}
+
+  /* ---------- Sticky mobile CTA bar ---------- */
+  .sticky-cta{
+    position:fixed; bottom:0; left:0; right:0; z-index:60;
+    display:flex; gap:10px; padding:10px 12px;
+    background:rgba(19,35,57,0.97);
+    backdrop-filter:blur(6px);
+    border-top:1px solid rgba(241,238,230,0.15);
+  }
+  .sticky-cta .btn{flex:1; padding:14px 10px; font-size:.94rem;}
+
+  /* ---------- Focus visibility ---------- */
+  a:focus-visible, button:focus-visible{outline:3px solid var(--brass); outline-offset:2px;}
+
+  @media (prefers-reduced-motion: reduce){
+    html{scroll-behavior:auto;}
+  }
+
+  /* ---------- Desktop breakpoint ---------- */
+  @media (min-width:760px){
+    :root{font-size:17px;}
+    .topbar .hide-mobile{display:flex;}
+    .nav-links{display:flex; gap:26px; font-weight:600; font-size:.92rem;}
+    .nav-links a{text-decoration:none; color:var(--ink-soft);}
+    .nav-links a:hover{color:var(--ink);}
+    .hero-inner{display:grid; grid-template-columns:1.1fr .9fr; gap:40px; align-items:center;}
+    .hero h1{font-size:3rem;}
+    .hero-ctas{flex-direction:row;}
+    .hero-trust{grid-template-columns:repeat(3,1fr);}
+    .hero-side{background:rgba(255,255,255,0.05); border:1px solid rgba(241,238,230,0.14); border-radius:10px; padding:24px;}
+    .gauge-ticks{padding:0 2%;}
+    .why-grid{grid-template-columns:repeat(3,1fr);}
+    .review-grid{grid-template-columns:repeat(3,1fr);}
+    .loc-grid{grid-template-columns:1.1fr .9fr;}
+    .about-inner{display:grid; grid-template-columns:1fr .8fr; gap:50px; align-items:center;}
+    .about-stats{grid-template-columns:repeat(2,1fr);}
+    .quote-inner{display:grid; grid-template-columns:.9fr 1.1fr; gap:36px; align-items:flex-start;}
+    .quote-wrap{padding:34px;}
+    .form-grid2{grid-template-columns:1fr 1fr; gap:0 14px;}
+    .foot-grid{grid-template-columns:1.3fr 1fr 1fr 1fr;}
+    .sticky-cta{display:none;}
+    section{padding:88px 0;}
+    footer.site{padding:56px 0;}
+  }
+</style>
+</head>
+<body>
+
+<!-- ============ TOP UTILITY BAR ============ -->
+<div class="topbar">
+  <div class="container">
+    <div class="topbar-item">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+      <span class="topbar-status">Open now</span>&nbsp;· Closes 7pm
+    </div>
+    <div class="topbar-item hide-mobile">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.9 17.4c0 .3-.1.6-.2.9-.2.3-.4.5-.6.7-.4.3-.9.6-1.4.7-.5.1-1 .1-1.6 0-2-.3-4-1.2-5.8-2.5-1.6-1.2-3-2.7-4.1-4.4C6 11 5.2 9 5 7c-.1-.6 0-1.1.1-1.6.1-.5.4-1 .7-1.4.2-.2.4-.4.7-.6.3-.1.6-.2.9-.2h1.7c.5 0 1 .3 1.1.8l1 3c.2.4 0 .9-.3 1.2l-1 1c1 1.9 2.5 3.4 4.4 4.4l1-1c.3-.3.8-.4 1.2-.3l3 1c.5.1.8.6.8 1.1v1.7Z"/></svg>
+      221 Garratt Lane, SW18 4DT
+    </div>
+  </div>
+</div>
+
+<!-- ============ HEADER ============ -->
+<header class="site">
+  <nav class="nav container" aria-label="Main">
+    <a href="#top" class="brand">
+      <svg class="brand-mark" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+        <rect x="21" y="2" width="6" height="44" rx="3" fill="#9c2b34"/>
+        <rect x="21" y="2" width="6" height="14" rx="3" fill="#c1963f"/>
+        <circle cx="24" cy="24" r="22" stroke="#132339" stroke-width="2"/>
+      </svg>
+      <span class="brand-text">MB Barbers<span>Garratt Lane, SW18</span></span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#services">Services</a></li>
+      <li><a href="#reviews">Reviews</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#location">Find us</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a class="call-chip" href="tel:+447776474320" aria-label="Call MB Barbers on 07776 474320">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.9 17.4c0 .3-.1.6-.2.9-.2.3-.4.5-.6.7-.4.3-.9.6-1.4.7-.5.1-1 .1-1.6 0-2-.3-4-1.2-5.8-2.5-1.6-1.2-3-2.7-4.1-4.4C6 11 5.2 9 5 7c-.1-.6 0-1.1.1-1.6.1-.5.4-1 .7-1.4.2-.2.4-.4.7-.6.3-.1.6-.2.9-.2h1.7c.5 0 1 .3 1.1.8l1 3c.2.4 0 .9-.3 1.2l-1 1c1 1.9 2.5 3.4 4.4 4.4l1-1c.3-.3.8-.4 1.2-.3l3 1c.5.1.8.6.8 1.1v1.7Z"/></svg>
+        <span><small>Call now</small>07776 474320</span>
+      </a>
+    </div>
+  </nav>
+</header>
+
+<main id="top">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" aria-labelledby="hero-heading">
+    <div class="container hero-inner">
+      <div>
+        <div class="stars" aria-label="Rated 4.6 out of 5 from 60 Google reviews">
+          <span class="icons" aria-hidden="true">
+            <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.6 5.9 6.4.6-4.8 4.3 1.4 6.2L10 14.9 4.4 18l1.4-6.2L1 7.5l6.4-.6L10 1z"/></svg>
+            <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.6 5.9 6.4.6-4.8 4.3 1.4 6.2L10 14.9 4.4 18l1.4-6.2L1 7.5l6.4-.6L10 1z"/></svg>
+            <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.6 5.9 6.4.6-4.8 4.3 1.4 6.2L10 14.9 4.4 18l1.4-6.2L1 7.5l6.4-.6L10 1z"/></svg>
+            <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.6 5.9 6.4.6-4.8 4.3 1.4 6.2L10 14.9 4.4 18l1.4-6.2L1 7.5l6.4-.6L10 1z"/></svg>
+            <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.6 5.9 6.4.6-4.8 4.3 1.4 6.2L10 14.9 4.4 18l1.4-6.2L1 7.5l6.4-.6L10 1z" opacity="0.55"/></svg>
+          </span>
+          <span class="stars-text">4.6 · 60 Google reviews</span>
+        </div>
+        <h1 id="hero-heading">Sharp fades. Straight talk. No waiting on hold.</h1>
+        <p class="hero-lede">Skin fades, beard trims and hot towel shaves from a Garratt Lane barbershop with 40+ years' experience behind the chair. Call direct or send us your details and we'll book you in.</p>
+        <div class="hero-ctas">
+          <a class="btn btn-primary" href="tel:+447776474320">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.9 17.4c0 .3-.1.6-.2.9-.2.3-.4.5-.6.7-.4.3-.9.6-1.4.7-.5.1-1 .1-1.6 0-2-.3-4-1.2-5.8-2.5-1.6-1.2-3-2.7-4.1-4.4C6 11 5.2 9 5 7c-.1-.6 0-1.1.1-1.6.1-.5.4-1 .7-1.4.2-.2.4-.4.7-.6.3-.1.6-.2.9-.2h1.7c.5 0 1 .3 1.1.8l1 3c.2.4 0 .9-.3 1.2l-1 1c1 1.9 2.5 3.4 4.4 4.4l1-1c.3-.3.8-.4 1.2-.3l3 1c.5.1.8.6.8 1.1v1.7Z"/></svg>
+            Call 07776 474320
+          </a>
+          <a class="btn btn-outline" href="#quote-form">Get a free quote</a>
+        </div>
+        <div class="hero-trust">
+          <div class="trust-stat"><span class="num">4.6★</span><span class="lbl">60 Google reviews</span></div>
+          <div class="trust-stat"><span class="num">40+ yrs</span><span class="lbl">Barber experience</span></div>
+          <div class="trust-stat"><span class="num">7pm</span><span class="lbl">Open today until</span></div>
+        </div>
+      </div>
+      <div class="hero-side" aria-hidden="true">
+        <p class="eyebrow" style="color:var(--brass-2)">What locals say</p>
+        <p style="color:#fff; font-family:'Fraunces',serif; font-size:1.15rem; font-weight:500; margin-bottom:14px;">"Great barbers and good price for the quality."</p>
+        <p style="color:#fff; font-family:'Fraunces',serif; font-size:1.15rem; font-weight:500; margin-bottom:0;">"Super speedy service, and very good value. You can ask for any style and they will pull it off with ease."</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SIGNATURE: GUARD GAUGE ============ -->
+  <div class="gauge-wrap">
+    <div class="container">
+      <div class="gauge-head">
+        <p class="eyebrow">Every length, every guard</p>
+        <h2 style="font-size:1.3rem; margin-bottom:6px;">From a skin-tight #0 to a full scissor cut</h2>
+        <p>Whatever number you point to, one of our barbers cuts to it every day.</p>
+      </div>
+      <div class="gauge">
+        <div class="gauge-track" role="img" aria-label="Clipper guard scale from 0 to 8, representing the full range of cuts MB Barbers performs"></div>
+        <div class="gauge-ticks">
+          <div class="tick"><span class="dot"></span><span class="num">0</span><span class="lbl">Skin fade</span></div>
+          <div class="tick"><span class="dot"></span><span class="num">2</span><span class="lbl">Crop</span></div>
+          <div class="tick"><span class="dot"></span><span class="num">4</span><span class="lbl">Textured</span></div>
+          <div class="tick"><span class="dot"></span><span class="num">6</span><span class="lbl">Longer top</span></div>
+          <div class="tick"><span class="dot"></span><span class="num">8+</span><span class="lbl">Scissor cut</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ SERVICES ============ -->
+  <section id="services">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">Services &amp; prices</p>
+        <h2>Straightforward pricing, no surprises</h2>
+        <p>Walk in or book ahead — every cut includes a consultation on the guard, style and finish before we pick up the clippers.</p>
+      </div>
+      <div class="board">
+        <div class="board-inner">
+          <div class="price-row">
+            <span class="name">Skin fade<span class="desc">Clipper fade to skin, blended and finished with a straight-edge line-up</span></span>
+            <span class="price">£18</span>
+          </div>
+          <div class="price-row">
+            <span class="name">Classic cut<span class="desc">Scissor or clipper cut to your usual style</span></span>
+            <span class="price">£15</span>
+          </div>
+          <div class="price-row">
+            <span class="name">Cut &amp; beard trim<span class="desc">Full haircut plus a shaped, tidied beard</span></span>
+            <span class="price">£22</span>
+          </div>
+          <div class="price-row">
+            <span class="name">Hot towel shave<span class="desc">Traditional straight-razor shave with hot towel finish</span></span>
+            <span class="price">£16</span>
+          </div>
+          <div class="price-row">
+            <span class="name">Kids' cut<span class="desc">Under 12s, any style</span></span>
+            <span class="price">£12</span>
+          </div>
+          <div class="price-row">
+            <span class="name">Senior's cut<span class="desc">65+, any style</span></span>
+            <span class="price">£12</span>
+          </div>
+        </div>
+        <div class="board-foot">Prices from — final price confirmed on booking. Card and cash accepted.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ WHY CHOOSE US ============ -->
+  <section style="background:var(--paper-2); padding-top:0;">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">Why Garratt Lane trusts us</p>
+        <h2>Skilled hands, fair prices, no rushing you out the door</h2>
+      </div>
+      <div class="why-grid">
+        <div class="why-card">
+          <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2l2.4 4.8 5.3.8-3.8 3.7.9 5.3L12 14.2 7.2 16.6l.9-5.3-3.8-3.7 5.3-.8L12 2z"/></svg>
+          <h3>40+ years' experience</h3>
+          <p>One of our barbers has been cutting hair for over four decades — the kind of skill you can't rush.</p>
+        </div>
+        <div class="why-card">
+          <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 21s-7-4.35-9.5-8.8C.7 8.6 2.4 5 6 5c2 0 3.3 1.1 4 2.1C10.7 6.1 12 5 14 5c3.6 0 5.3 3.6 3.5 7.2C19 16.65 12 21 12 21z"/></svg>
+          <h3>Rated 4.6 on Google</h3>
+          <p>60 reviews and counting from people right here in Wandsworth — see for yourself below.</p>
+        </div>
+        <div class="why-card">
+          <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 8v4l3 2"/><circle cx="12" cy="12" r="9"/></svg>
+          <h3>Fast, no-fuss service</h3>
+          <p>In and out with a sharp cut — no upselling, no hour-long waits, just good barbering at a fair price.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ REVIEWS ============ -->
+  <section id="reviews">
+    <div class="container">
+      <div class="reviews-summary">
+        <span class="rs-score">4.6</span>
+        <div class="rs-meta">
+          <span class="icons" aria-hidden="true">
+            <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.6 5.9 6.4.6-4.8 4.3 1.4 6.2L10 14.9 4.4 18l1.4-6.2L1 7.5l6.4-.6L10 1z"/></svg>
+            <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.6 5.9 6.4.6-4.8 4.3 1.4 6.2L10 14.9 4.4 18l1.4-6.2L1 7.5l6.4-.6L10 1z"/></svg>
+            <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.6 5.9 6.4.6-4.8 4.3 1.4 6.2L10 14.9 4.4 18l1.4-6.2L1 7.5l6.4-.6L10 1z"/></svg>
+            <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.6 5.9 6.4.6-4.8 4.3 1.4 6.2L10 14.9 4.4 18l1.4-6.2L1 7.5l6.4-.6L10 1z"/></svg>
+            <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.6 5.9 6.4.6-4.8 4.3 1.4 6.2L10 14.9 4.4 18l1.4-6.2L1 7.5l6.4-.6L10 1z" opacity="0.55"/></svg>
+          </span>
+          <small>Based on 60 Google reviews</small>
+        </div>
+      </div>
+      <div class="review-grid">
+        <article class="review-card">
+          <div class="stars-row" aria-hidden="true">
+            <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.6 5.9 6.4.6-4.8 4.3 1.4 6.2L10 14.9 4.4 18l1.4-6.2L1 7.5l6.4-.6L10 1z"/></svg>
+            <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.6 5.9 6.4.6-4.8 4.3 1.4 6.2L10 14.9 4.4 18l1.4-6.2L1 7.5l6.4-.6L10 1z"/></svg>
+            <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.6 5.9 6.4.6-4.8 4.3 1.4 6.2L10 14.9 4.4 18l1.4-6.2L1 7.5l6.4-.6L10 1z"/></svg>
+            <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.6 5.9 6.4.6-4.8 4.3 1.4 6.2L10 14.9 4.4 18l1.4-6.2L1 7.5l6.4-.6L10 1z"/></svg>
+            <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.6 5.9 6.4.6-4.8 4.3 1.4 6.2L10 14.9 4.4 18l1.4-6.2L1 7.5l6.4-.6L10 1z"/></svg>
+          </div>
+          <p>"I got a taper fade and it was very good. I have been coming here for 2 years now and always leave with a smile. Definitely worth the money, would recommend."</p>
+          <div class="who">
+            <div class="avatar">M</div>
+            <div>
+              <div class="who-name">Mohammed Ali</div>
+              <div class="who-meta">4 reviews · 6 months ago</div>
+            </div>
+          </div>
+        </article>
+        <article class="review-card">
+          <div class="stars-row" aria-hidden="true">
+            <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.6 5.9 6.4.6-4.8 4.3 1.4 6.2L10 14.9 4.4 18l1.4-6.2L1 7.5l6.4-.6L10 1z"/></svg>
+            <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.6 5.9 6.4.6-4.8 4.3 1.4 6.2L10 14.9 4.4 18l1.4-6.2L1 7.5l6.4-.6L10 1z"/></svg>
+            <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.6 5.9 6.4.6-4.8 4.3 1.4 6.2L10 14.9 4.4 18l1.4-6.2L1 7.5l6.4-.6L10 1z"/></svg>
+            <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.6 5.9 6.4.6-4.8 4.3 1.4 6.2L10 14.9 4.4 18l1.4-6.2L1 7.5l6.4-.6L10 1z"/></svg>
+            <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.6 5.9 6.4.6-4.8 4.3 1.4 6.2L10 14.9 4.4 18l1.4-6.2L1 7.5l6.4-.6L10 1z"/></svg>
+          </div>
+          <p>"Super speedy service, and very good value. You can ask for any style and they will pull it off with ease!"</p>
+          <div class="who">
+            <div class="avatar">T</div>
+            <div>
+              <div class="who-name">Tom Macfarlane</div>
+              <div class="who-meta">6 reviews · 4 months ago</div>
+            </div>
+          </div>
+        </article>
+        <article class="review-card">
+          <div class="stars-row" aria-hidden="true">
+            <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.6 5.9 6.4.6-4.8 4.3 1.4 6.2L10 14.9 4.4 18l1.4-6.2L1 7.5l6.4-.6L10 1z"/></svg>
+            <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.6 5.9 6.4.6-4.8 4.3 1.4 6.2L10 14.9 4.4 18l1.4-6.2L1 7.5l6.4-.6L10 1z"/></svg>
+            <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.6 5.9 6.4.6-4.8 4.3 1.4 6.2L10 14.9 4.4 18l1.4-6.2L1 7.5l6.4-.6L10 1z"/></svg>
+            <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.6 5.9 6.4.6-4.8 4.3 1.4 6.2L10 14.9 4.4 18l1.4-6.2L1 7.5l6.4-.6L10 1z"/></svg>
+            <svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1l2.6 5.9 6.4.6-4.8 4.3 1.4 6.2L10 14.9 4.4 18l1.4-6.2L1 7.5l6.4-.6L10 1z"/></svg>
+          </div>
+          <p>"One of the barbers has 40+ years' experience cutting hair. You can ask for any haircut and they do it perfectly — genuinely worth a visit."</p>
+          <div class="who">
+            <div class="avatar">H</div>
+            <div>
+              <div class="who-name">Hamza Zahid</div>
+              <div class="who-meta">1 review · 11 months ago</div>
+            </div>
+          </div>
+        </article>
+      </div>
+      <div style="text-align:center; margin-top:28px;">
+        <a class="btn btn-ghost" href="https://www.google.com/maps/place/MB+Barbers" target="_blank" rel="noopener">Read all 60 reviews on Google</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="about" id="about">
+    <div class="container about-inner">
+      <div>
+        <p class="eyebrow">About MB Barbers</p>
+        <h2>Four decades of experience, one barbershop on Garratt Lane</h2>
+        <p>MB Barbers has been part of the Garratt Lane high street for years, built on the same principle every regular mentions: skilled cutting, fair prices, and a warm welcome whether it's your first visit or your fiftieth. One of our barbers brings over 40 years behind the chair — the rest of the team learned the trade the same way, cut by cut, client by client.</p>
+        <p>We keep the shop simple: no gimmicks, no appointment apps to wrestle with. Call the shop, tell us what you're after, and we'll get you in the chair.</p>
+        <div class="about-stats">
+          <div class="about-stat"><span class="num">40+</span><span class="lbl">Years of combined experience</span></div>
+          <div class="about-stat"><span class="num">4.6★</span><span class="lbl">Average Google rating</span></div>
+          <div class="about-stat"><span class="num">60</span><span class="lbl">Verified Google reviews</span></div>
+          <div class="about-stat"><span class="num">7</span><span class="lbl">Days a week open</span></div>
+        </div>
+      </div>
+      <div class="hero-side" style="background:rgba(255,255,255,0.05); border:1px solid rgba(241,238,230,0.14); border-radius:10px; padding:24px;">
+        <p class="eyebrow" style="color:var(--brass-2)">Straight from the reviews</p>
+        <p style="color:#fff; font-family:'Fraunces',serif; font-size:1.1rem; font-weight:500;">"Very nice hair salon in this area... friendly staff."</p>
+        <a class="btn btn-primary btn-block" href="tel:+447776474320" style="margin-top:16px;">Call 07776 474320</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ LOCATION ============ -->
+  <section id="location" style="background:var(--paper-2);">
+    <div class="container">
+      <div class="section-head">
+        <p class="eyebrow">Find us</p>
+        <h2>221 Garratt Lane, London SW18 4DT</h2>
+        <p>Two minutes from Earlsfield station, on the main Garratt Lane high street. Street parking available nearby.</p>
+      </div>
+      <div class="loc-grid">
+        <div class="loc-card">
+          <iframe class="map-frame" title="Map showing MB Barbers at 221 Garratt Lane, London SW18 4DT" loading="lazy" src="https://www.google.com/maps?q=221+Garratt+Lane,+London+SW18+4DT&output=embed"></iframe>
+          <div style="display:flex; gap:10px; margin-top:16px; flex-wrap:wrap;">
+            <a class="btn btn-ghost" href="https://www.google.com/maps/dir/?api=1&destination=221+Garratt+Lane,+London+SW18+4DT" target="_blank" rel="noopener">Get directions</a>
+            <a class="btn btn-primary" href="tel:+447776474320">Call the shop</a>
+          </div>
+        </div>
+        <div class="loc-card">
+          <h3><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>Opening hours</h3>
+          <div class="hours-row today"><span>Today</span><span>9:00am – 7:00pm</span></div>
+          <div class="hours-row"><span>Monday – Saturday</span><span>9:00am – 7:00pm</span></div>
+          <div class="hours-row"><span>Sunday</span><span>10:00am – 5:00pm</span></div>
+          <div style="margin-top:16px;">
+            <h3 style="margin-top:18px;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.9 17.4c0 .3-.1.6-.2.9-.2.3-.4.5-.6.7-.4.3-.9.6-1.4.7-.5.1-1 .1-1.6 0-2-.3-4-1.2-5.8-2.5-1.6-1.2-3-2.7-4.1-4.4C6 11 5.2 9 5 7c-.1-.6 0-1.1.1-1.6.1-.5.4-1 .7-1.4.2-.2.4-.4.7-.6.3-.1.6-.2.9-.2h1.7c.5 0 1 .3 1.1.8l1 3c.2.4 0 .9-.3 1.2l-1 1c1 1.9 2.5 3.4 4.4 4.4l1-1c.3-.3.8-.4 1.2-.3l3 1c.5.1.8.6.8 1.1v1.7Z"/></svg>Phone</h3>
+            <a href="tel:+447776474320" style="font-family:'Fraunces',serif; font-size:1.3rem; font-weight:700; color:var(--red); text-decoration:none;">07776 474 320</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ QUOTE FORM ============ -->
+  <section class="quote" id="quote-form">
+    <div class="container quote-inner">
+      <div>
+        <p class="eyebrow">Get a free quote</p>
+        <h2>Tell us what you need — we'll call you back</h2>
+        <p>Prefer not to call right now? Send over a few details and one of our barbers will get back to you, usually within the hour during opening times.</p>
+        <div style="display:flex; align-items:center; gap:12px; margin-top:22px;">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" style="color:var(--red); flex-shrink:0;"><path d="M20.9 17.4c0 .3-.1.6-.2.9-.2.3-.4.5-.6.7-.4.3-.9.6-1.4.7-.5.1-1 .1-1.6 0-2-.3-4-1.2-5.8-2.5-1.6-1.2-3-2.7-4.1-4.4C6 11 5.2 9 5 7c-.1-.6 0-1.1.1-1.6.1-.5.4-1 .7-1.4.2-.2.4-.4.7-.6.3-.1.6-.2.9-.2h1.7c.5 0 1 .3 1.1.8l1 3c.2.4 0 .9-.3 1.2l-1 1c1 1.9 2.5 3.4 4.4 4.4l1-1c.3-.3.8-.4 1.2-.3l3 1c.5.1.8.6.8 1.1v1.7Z"/></svg>
+          <div>
+            <div style="font-size:.82rem; color:var(--ink-soft);">Or skip the form and call direct</div>
+            <a href="tel:+447776474320" style="font-family:'Fraunces',serif; font-weight:700; font-size:1.1rem; color:var(--red); text-decoration:none;">07776 474320</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="quote-wrap">
+        <div id="quote-form-body">
+          <div class="quote-head">
+            <h3 style="margin-bottom:4px;">Request your free quote</h3>
+            <p style="color:var(--ink-soft); font-size:.9rem; margin:0;">Takes under a minute.</p>
+          </div>
+          <form id="quoteForm" novalidate>
+            <div class="form-grid2">
+              <div class="form-row">
+                <label for="q-name">Full name</label>
+                <input type="text" id="q-name" name="name" placeholder="John Smith" required autocomplete="name">
+              </div>
+              <div class="form-row">
+                <label for="q-phone">Phone number</label>
+                <input type="tel" id="q-phone" name="phone" placeholder="07xxx xxxxxx" required autocomplete="tel" inputmode="tel">
+              </div>
+            </div>
+            <div class="form-row">
+              <label for="q-service">Service</label>
+              <select id="q-service" name="service" required>
+                <option value="" disabled selected>Select a service</option>
+                <option>Skin fade</option>
+                <option>Classic cut</option>
+                <option>Cut &amp; beard trim</option>
+                <option>Hot towel shave</option>
+                <option>Kids' cut</option>
+                <option>Senior's cut</option>
+                <option>Not sure yet</option>
+              </select>
+            </div>
+            <div class="form-row">
+              <label for="q-time">Preferred day/time (optional)</label>
+              <input type="text" id="q-time" name="time" placeholder="e.g. Saturday morning">
+            </div>
+            <div class="form-row">
+              <label for="q-notes">Anything else? (optional)</label>
+              <textarea id="q-notes" name="notes" rows="3" placeholder="Style, length, or any request for a specific barber"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Send my quote request</button>
+            <p class="form-note">By submitting, you agree to be contacted by MB Barbers about your enquiry.</p>
+          </form>
+        </div>
+
+        <div class="form-success" id="formSuccess">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M8 12.5l2.5 2.5L16 9"/></svg>
+          <h3>Thanks — we've got it</h3>
+          <p style="color:var(--ink-soft);">One of our barbers will call you back shortly. In a hurry? Just ring the shop directly.</p>
+          <a class="btn btn-primary" href="tel:+447776474320">Call 07776 474320 now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site">
+  <div class="container foot-grid">
+    <div>
+      <div class="foot-brand">MB Barbers</div>
+      <p style="max-width:32ch;">221 Garratt Lane, London SW18 4DT. Skin fades, beard trims and hot towel shaves from a team with 40+ years' combined experience.</p>
+    </div>
+    <div>
+      <h4>Shop</h4>
+      <ul>
+        <li><a href="#services">Services &amp; prices</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#about">About us</a></li>
+        <li><a href="#location">Opening hours</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <ul>
+        <li><a href="tel:+447776474320">07776 474320</a></li>
+        <li><a href="https://www.google.com/maps/dir/?api=1&destination=221+Garratt+Lane,+London+SW18+4DT" target="_blank" rel="noopener">Get directions</a></li>
+        <li><a href="#quote-form">Request a quote</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Hours</h4>
+      <ul>
+        <li>Mon – Sat: 9am – 7pm</li>
+        <li>Sunday: 10am – 5pm</li>
+      </ul>
+    </div>
+  </div>
+  <div class="container foot-bottom">
+    &copy; <span id="year"></span> MB Barbers, 221 Garratt Lane, London SW18 4DT. All rights reserved.
+  </div>
+</footer>
+
+<!-- ============ STICKY MOBILE CTA ============ -->
+<div class="sticky-cta" role="region" aria-label="Quick actions">
+  <a class="btn btn-primary" href="tel:+447776474320">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.9 17.4c0 .3-.1.6-.2.9-.2.3-.4.5-.6.7-.4.3-.9.6-1.4.7-.5.1-1 .1-1.6 0-2-.3-4-1.2-5.8-2.5-1.6-1.2-3-2.7-4.1-4.4C6 11 5.2 9 5 7c-.1-.6 0-1.1.1-1.6.1-.5.4-1 .7-1.4.2-.2.4-.4.7-.6.3-.1.6-.2.9-.2h1.7c.5 0 1 .3 1.1.8l1 3c.2.4 0 .9-.3 1.2l-1 1c1 1.9 2.5 3.4 4.4 4.4l1-1c.3-.3.8-.4 1.2-.3l3 1c.5.1.8.6.8 1.1v1.7Z"/></svg>
+    Call now
+  </a>
+  <a class="btn btn-outline" href="#quote-form" style="border-color:var(--brass-2); color:var(--brass-2);">Get a quote</a>
+</div>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  var form = document.getElementById('quoteForm');
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    if(!form.checkValidity()){
+      form.reportValidity();
+      return;
+    }
+    document.getElementById('quote-form-body').style.display = 'none';
+    document.getElementById('formSuccess').classList.add('show');
+    document.getElementById('formSuccess').setAttribute('tabindex','-1');
+    document.getElementById('formSuccess').focus();
+  });
+</script>
+
+</body>
+</html>
